@@ -134,3 +134,32 @@ function mostraTempo (){
 
 mostraTempo()
 
+
+
+
+
+// SOBRE O CODIGO
+
+// Seleção de elementos do DOM:
+// Você está usando corretamente o" document.querySelector()" para selecionar os elementos HTML necessários para o funcionamento do seu aplicativo.
+// A nomeação das variáveis é clara e descritiva, facilitando o entendimento do código.
+
+// Manipulação de classes e atributos:
+// Você está usando corretamente o "classList.add() e classList.remove()" para adicionar e remover classes dos elementos HTML.
+// A atualização dos atributos "src" do banner e "data-contexto" do HTML também está sendo feita de forma adequada.
+
+// Lógica de alteração de contexto:
+// A função "alterarContexto()" é responsável por centralizar a lógica de alteração do contexto (foco, descanso curto, descanso longo).
+// Ela atualiza o tempo exibido na tela, remove a classe "active" de todos os botões e atualiza o banner e o título de acordo com o novo contexto.
+
+// Contagem regressiva:
+// A função "contagemRegressiva()" é responsável por decrementar o tempo a cada segundo e atualizar a exibição do tempo na tela.
+// Ela também verifica se o tempo chegou a zero e, nesse caso, reproduz um som de alerta e zera o temporizador.
+
+// Iniciar/Pausar o temporizador:
+// O evento de clique no botão "Iniciar/Pausar" é tratado pela função "iniciarOuPausar()."
+// Essa função verifica se o temporizador está em execução e, com base nisso, inicia ou pausa a contagem regressiva, atualizando o texto e o ícone do botão.
+
+// Reprodução de áudio:
+// Você implementou a funcionalidade de reprodução de áudio durante o foco, utilizando o evento de mudança do checkbox "Alternar Música".
+// Também há sons de play e pause sendo reproduzidos ao iniciar e pausar o temporizador.
